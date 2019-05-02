@@ -1,7 +1,7 @@
 # Learning-to-Rank-Relevancy-Scores-of-Products-and-User-Queries
 <li> Learning to rank refers to machine learning techniques for training the model in a ranking task.  </li>
 <li> In this project we have explored how an LETOR (Learning to Rank) is implemented on the Dataset having Categorical attributes which describes the Product Info and User queries to predict the Relevancy Scores. </li>
-<li> Tokenization is Performed on the Product Titles and Info. The tokens obtained are filtered by keeping Alphabetical tokens and removing Stopwords/ Most common words. </li>
+<li> Tokenization is Performed on the Product Titles and Descriptions. The tokens obtained are filtered by keeping Alphabetical tokens and removing Stopwords/ Most common words. </li>
 <li> Porter Stemmer is implemented to obtain the the Morphological/Root forms of tokens. </li>
 <li> The TF_IDF values of each token in a Document is Computed. Along with this the Associations of each token with other tokens are also computed. </li>
 <li> Feature Engineering is implemented to generate the Similarity measures such as Cosine, Jaccard, Dice, Dot Product of product and queries. Along with this Statistical features such as product length, query length, Common words ratio with respect to both query and Product is also computed.</li>
