@@ -1,4 +1,4 @@
-# Learning-to-Rank-Relevancy-Scores-of-Products-and-User-Queries
+# Home Depot Product Search Relevance
 <li> Learning to rank refers to machine learning techniques for training the model in a ranking task.  </li>
 <li> In this project we have explored how an LETOR (Learning to Rank) is implemented on the Dataset having Categorical attributes which describes the Product Info and User queries to predict the Relevancy Scores. </li>
 <li> Tokenization is Performed on the Product Titles and Descriptions. The tokens obtained are filtered by keeping Alphabetical tokens and removing Stopwords/ Most common words. </li>
